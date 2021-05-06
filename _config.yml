@@ -74,15 +74,6 @@ content:
     layout: list
     content:
       - layout: right
-        title: Suministros eléctricos Gabyl SA
-        sub_title: Operario
-        caption:   Junio 2019 - Septiembre 2019
-        link: [Página oficial](https://www.gabyl.com/)
-        # quote: >
-         
-        description: | # this will include new lines to allow paragraphs
-         Montaje de piezas electrónicas para muebles refrigerados
-      - layout: right
         title: ZF Aftermarket Ibérica S.L. Corella
         sub_title: Operario
         caption:   Junio 2018 - Octubre 2018
@@ -90,6 +81,15 @@ content:
         # quote: >
          
          description: | # this will include new lines to allow paragraphs
+         Montaje de accesorios para pastillas de freno.
+        - layout: right
+        title: ZF Aftermarket Ibérica S.L. Corella
+        sub_title: Operario
+        caption:   Junio 2018 - Octubre 2018
+        link: [Página oficial](https://www.zf.com/mobile/en/homepage/homepage.html)
+        # quote: >
+         
+         description: >
          Montaje de accesorios para pastillas de freno.
   - title: Educación
     layout: list

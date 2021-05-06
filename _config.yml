@@ -80,7 +80,7 @@ content:
         link: [Página oficial](https://www.gabyl.com/)
         # quote: >
          
-         description: | # this will include new lines to allow paragraphs
+        description: | # this will include new lines to allow paragraphs
          Montaje de piezas electrónicas para muebles refrigerados
       - layout: right
         title: ZF Aftermarket Ibérica S.L. Corella

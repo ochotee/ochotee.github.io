@@ -45,16 +45,16 @@ linkedin_username: eduardo-ochoa-sesma
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
+gtag: "G-2KH4CVPZP3"
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+ about_title: Sobre mi (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hola soy Eduardo, programador CNC. // Hey I'm Eduardo, I'm CNC programmer
 content:
-  - title: Projects # Title for the section
+  - title: Proyectos
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -73,24 +73,25 @@ content:
   - title: Experiencia
     layout: list
     content:
+     - layout: right
+        title: ZF Aftermarket Ibérica S.L. Corella
+        sub_title: Operario
+        caption: Junio 2018 - Octubre 2018
+        link: Página oficial [https://www.zf.com/mobile/en/homepage/homepage.html]
+        quote: > 
+          Short description of the company (optional)
+        description: > Montaje de accesorios para pastillas de freno.
+          Description of role 
       - layout: right
-        title: ZF Aftermarket Ibérica S.L. Corella
+        title: Suministros eléctricos Gabyl SA
         sub_title: Operario
-        caption:   Junio 2018 - Octubre 2018
-        link: [Página oficial](https://www.zf.com/mobile/en/homepage/homepage.html)
-        # quote: >
-         
-         description: | # this will include new lines to allow paragraphs
-         Montaje de accesorios para pastillas de freno.
-        - layout: right
-        title: ZF Aftermarket Ibérica S.L. Corella
-        sub_title: Operario
-        caption:   Junio 2018 - Octubre 2018
-        link: [Página oficial](https://www.zf.com/mobile/en/homepage/homepage.html)
-        # quote: >
-         
-         description: >
-         Montaje de accesorios para pastillas de freno.
+        caption: Junio 2019 - Septiembre 2019
+        link: [Página oficial](https://www.gabyl.com/)
+        quote: >
+          Short description of the company (optional)
+        description: |
+          Montaje de piezas electrónicas para muebles refrigerados   
+ 
   - title: Educación
     layout: list
     content:
@@ -101,12 +102,21 @@ content:
         quote: > 
           Programación en la producción Mecánica 
         description: | # this will include new lines to allow paragraphs
-          Programación de CNC en todo tipo de maquinas, más concretamente de fresadora y torno. 
-  - title: Acerca de mi
+          Programación de CNC en todo tipo de maquinas, más concretamente de fresadora y torno.
+     
+      - layout: top-right
+        title: EASDi
+        sub_title: Bachillerato
+        caption: 2015 - 2017
+        quote: > 
+          Bachillerato de Artes Plásticas y Diseño
+        description: | # this will include new lines to allow paragraphs
+         Diseño de producto y piezas. Utilización de AutoCAD, GIMP, Lightroom
+  - title: Datos de interés
     layout: text
     content: | # this will include new lines to allow paragraphs
       * Entrenador de un equipo de balonmano durante 2 años consecutivos. **GDM La Merced**
-      Participación en excavaciones arqueológicas, siendo parte del equipo de fotografía en *Baelo Claudia Tarifa (Cádiz)*.
+      * Participación en excavaciones arqueológicas, siendo parte del equipo de fotografía en *Baelo Claudia Tarifa (Cádiz)*.
      
 # Footer
 footer_show_references: false
